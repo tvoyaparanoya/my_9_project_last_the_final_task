@@ -1,0 +1,12 @@
+{
+  "cb3f324f17717429efdf4268ca4f11b4cd0305988b10e6396f7523512bbbdb36": {
+    "filename": "\u041f\u0435\u0440\u0435\u0447\u0435\u043d\u044c VLAN.pdf",
+    "hash": "cb3f324f17717429efdf4268ca4f11b4cd0305988b10e6396f7523512bbbdb36",
+    "malicious": 0,
+    "suspicious": 0,
+    "harmless": 0,
+    "undetected": 64,
+    "malicious_names": [],
+    "source": "database"
+  }
+}
