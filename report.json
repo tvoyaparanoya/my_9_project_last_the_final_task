@@ -1,0 +1,88 @@
+{
+  "timestamp": "2026-03-09T22:04:25.891917",
+  "file_checked": {
+    "path": "C:\\Users\\1\\Downloads\\Перечень VLAN.pdf",
+    "result": {
+      "filename": "Перечень VLAN.pdf",
+      "hash": "cb3f324f17717429efdf4268ca4f11b4cd0305988b10e6396f7523512bbbdb36",
+      "malicious": 0,
+      "suspicious": 0,
+      "harmless": 0,
+      "undetected": 64,
+      "malicious_names": [],
+      "source": "database"
+    }
+  },
+  "pcap_analysis": {
+    "file": "20180323_logs.pcap",
+    "statistics": {
+      "total_packets": 0,
+      "ip_packets": 3315753,
+      "tcp_packets": 2988783,
+      "udp_packets": 0,
+      "syn_packets": 2447256
+    },
+    "threats": [
+      {
+        "type": "SYN_SCAN",
+        "src_ip": "10.128.0.235",
+        "count": 1853556,
+        "severity": "HIGH"
+      },
+      {
+        "type": "SYN_SCAN",
+        "src_ip": "10.128.0.207",
+        "count": 234594,
+        "severity": "HIGH"
+      },
+      {
+        "type": "SYN_SCAN",
+        "src_ip": "10.201.129.147",
+        "count": 62304,
+        "severity": "HIGH"
+      },
+      {
+        "type": "SYN_SCAN",
+        "src_ip": "10.157.46.195",
+        "count": 22140,
+        "severity": "HIGH"
+      },
+      {
+        "type": "SYN_SCAN",
+        "src_ip": "10.241.91.152",
+        "count": 20000,
+        "severity": "HIGH"
+      },
+      {
+        "type": "SYN_SCAN",
+        "src_ip": "10.243.192.88",
+        "count": 20000,
+        "severity": "HIGH"
+      },
+      {
+        "type": "SYN_SCAN",
+        "src_ip": "10.230.194.2",
+        "count": 20000,
+        "severity": "HIGH"
+      },
+      {
+        "type": "SYN_SCAN",
+        "src_ip": "10.167.72.40",
+        "count": 20000,
+        "severity": "HIGH"
+      },
+      {
+        "type": "SYN_SCAN",
+        "src_ip": "10.139.197.134",
+        "count": 20000,
+        "severity": "HIGH"
+      },
+      {
+        "type": "SYN_SCAN",
+        "src_ip": "10.230.42.141",
+        "count": 20000,
+        "severity": "HIGH"
+      }
+    ]
+  }
+}
